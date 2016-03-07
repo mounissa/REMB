@@ -1,0 +1,53 @@
+html,body{
+	
+	height:100%;
+}
+
+.master{
+	
+	margin: 0 auto;
+	width:70%;
+	box-shadow:5px 5px 6px silver;
+}
+.main{
+	margin:5px;
+	overflow:hidden;
+	
+}
+
+header{
+	
+	height:auto;
+}
+footer{
+	background-color:rgba(40, 130, 123, 0.3);
+	padding:5px;
+}
+p{
+	padding:5px;
+	margin:5px;	
+}
+
+li{
+	
+	text-decoration:none;
+}
+
+a{
+	
+	list-style:none;
+}
+h2{
+	
+	font-size:18px;
+}
+#connexion a{
+	
+	/*margin-left:200px;*/
+	
+	
+}
+#calendar {
+		/*max-width: 900px;*/
+		margin: 0 auto;
+}
