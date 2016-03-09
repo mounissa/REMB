@@ -15,6 +15,10 @@
 	background-color:rgba(215, 131, 119, 0.3);
 
 }
+.menu ul li{
+	
+	display:inline;
+}
 .menu ul li a:hover{
 	
 	background-color:rgba(40, 130, 123, 0.5);
