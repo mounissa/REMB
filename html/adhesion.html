@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demande d'adhésion</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css" >
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap-theme.min.css" >
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../framework/jquery/jquery-1.12.1.min.js" ></script>
+	<script src="../framework/bootstrap/js/bootstrap.min.js" ></script>  
+	<script src="../framework/jquery/jquery-1.11.14-ui.min.js"></script>
+	<link rel="stylesheet" href="../framework/jquery/jquery-1.11.14-ui.css">
+	<link href='../framework/fullcalendar-2.6.1/fullcalendar.css' rel='stylesheet' />
+	<link href='../framework/fullcalendar-2.6.1/fullcalendar.print.css' rel='stylesheet' media='print' />
+	<script src='../framework/fullcalendar-2.6.1/lib/moment.min.js'></script>
+	<script src='../framework/fullcalendar-2.6.1/lib/jquery.min.js'></script>
+	<script src='../framework/fullcalendar-2.6.1/fullcalendar.min.js'></script>
+	<script src='../framework/fullcalendar-2.6.1/lang-all.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/accueil.css">
+	<link rel="stylesheet" media="screen and (max-width:1700px)" type="text/css" href="css/accueil_small_screen.css" >	
+	<script src="../js/script.js"></script>
+</head>
+<body >
+	<div class="master container-fluid ">
+	
+		<header class="hidden-xs hidden-sm hidden-md visible-lg-inline">
+			<nav class="menu navbar ">
+				<ul class="nav navbar-nav">
+					<li><a class="active" href="">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="adhesion.html">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
+				
+				<li><form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-primary">Submit</button>
+     		 </form></li>
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+		<header class="visible-xs-block visible-sm-block visible-md-block" >
+			<nav class="menu navbar ">
+				<ul class="nav nav-pills nav-stacked">
+					<li><a class="active" href="">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="adhesion.html">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
+				
+				<li><form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-primary">Submit</button>
+     		 </form></li>
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+		<section class="">
+			<form method="GET" action="." class="form-horizontal">
+			<fieldset>
+				<legend>Formulaire d'adhésion</legend>
+				<div class="form-group">
+					<label for="titre" class="control-label col-sm-2 hidden-xs">Nom</label>
+					<div class="col-sm-7 col-xs-12"> 
+						<input type="text" class="form-control" placeholder="Nom *" name="titre" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Prenom</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Prenom *" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Adresse</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Adresse" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs"></label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="N° et voie (rue, allée, avenue...)" name="" required="required">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Code postal*</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Code postal" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Ville</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Ville" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Mobile</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Mobile *" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Email</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Email *" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="auteur" class="control-label col-sm-2 hidden-xs">Confirmer votre email</label>
+					<div class="col-sm-7 col-xs-12">
+						<input type="text" class="form-control" placeholder="Confirmer votre email" name="auteur" required="required">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-12 col-sm-offset-2">
+						<input class="btn btn-default" type="submit" value="Envoyer">
+					</div>
+				</div>
+			</fieldset>
+		</form>
+				
+		</section>
+		
+		<footer>
+				<nav class="foot row">
+				<ul class="col-md-10">
+					<li><a class="" href="">Accueil</a></li>
+					<li class=""><a href="" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" disabled>Association</a>
+						<ul class="">
+							<li><a href="">Qui sommes nous?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+						</ul>
+					
+					</li>		
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+			
+			
+		</footer>
+	
+	</div>
+
+</body>
+</html>
