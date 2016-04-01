@@ -1,0 +1,17 @@
+.actualite article{
+	
+	width:50%;
+	border-bottom:1px solid silver;
+}
+.actualite p{
+	
+
+}
+.actualite img{
+	
+	width:200px;
+	height:auto;
+	max-height:150px;
+	float:left;
+	margin-right:10px;
+}
