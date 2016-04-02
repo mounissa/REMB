@@ -7,17 +7,20 @@
 .main_contain col-md-8{
 	
 	padding:none;
+	margin-top:none;
+	
 }
 .main_contain p{
 	
 	width:45%;
-	padding:5px;
+	padding:8px;
 	background-color:rgba(215, 131, 119, 0.3);
 
 }
 .menu ul li{
 	
 	display:inline;
+	margin-right:none;
 }
 .menu ul li a:hover{
 	
@@ -38,6 +41,11 @@
 	background-color:rgba(40, 130, 123, 0.7);
 	
 }
+.menu ul{
+	
+	width:85%;
+	margin: 0 auto;
+}
 .menu ul li a{
 	
 	color:black;
@@ -51,17 +59,36 @@
 	
 	height:3px;
 	background-color:gold;
-	width:68%;
+	width:100%;
 	position:absolute;	
-	margin-left:5px;
+	
 }
 .slideshow{
 	
-		background-color:steelBlue;
+		/*background-color:steelBlue;*/
 		height:500px;
 		margin:5px;
 		z-index:0p;
+		
 }
+#myCarousel .col-md-7 .carousel .slide{
+	
+	padding-bottom:none;
+	margin-bottom:none;
+}
+#search_accueil{
+	
+	width:250px;
+}
+.row .actu_accueil{
+	
+	margin-bottom:15px;
+}
+.row .actu_accueil p{
+	
+	margin-right:10px;
+}
+
 #titre_agenda{
 	
 	margin-top:none;
