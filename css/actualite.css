@@ -1,0 +1,36 @@
+.actualite article{
+	
+	width:50%;
+	padding-top:8px;
+	padding-bottom:8px;
+	border-bottom:1px solid silver;
+}
+.actualite p{
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.actualite img{
+	
+	width:200px;
+	height:auto;
+	max-height:150px;
+	float:left;
+	margin-right:10px;
+}
+.actualite article h2:hover{
+	color:grey;
+	
+}
+
+.actualite_detail img{
+	
+	width:auto;
+	height:auto;
+	max-height:400px;
+	margin-top:8px;
+}
+.actualite_detail article{
+	
+	width:70%;
+	
+}
