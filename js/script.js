@@ -3,16 +3,15 @@
 		   autoOpen: false,
 		   width: "auto",
 		   modal: true,
-		   show: 'fadeIn(3000)'
-		 
+		   show: 'fadeIn(3000)',
+		   close:function(){
+			   $("body").css({
+			        background:"none"
+			        	
+			   });
+		   }
 	 });
-	 $('#dialog').dialog("close",function(){
-		  /*$("body").css({
-		        background:"none"
-		       
-		   });*/
-		 console.log("test");
-	 });
+	
 	  $( "#connexion" ).click(function( event ) {
 	      // cette ligne est très importante pour empêcher les liens ou les boutons de rediriger
 	      // vers une autre page avant que l'usager ait cliqué dans le popup
@@ -22,6 +21,8 @@
 		        opacity: ".10 !important",
 		        filter: "Alpha(Opacity=10)",
 		   });
+	      $("#login").val(" ");
+	      $("#mdp").val(" ");
 	      // affichage du popup
 	      $( "#dialog" ).dialog( "open" );
 		
@@ -35,8 +36,10 @@
 		        opacity: ".10 !important",
 		        filter: "Alpha(Opacity=10)",
 		   });
+	      $('#dialog').css('overflow', 'hidden'); 
 	      // affichage du popup
 	      $( "#dialog" ).dialog( "open" );
+	     
 		
 	  });
 	 
