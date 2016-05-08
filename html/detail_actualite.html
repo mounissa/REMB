@@ -3,12 +3,12 @@
 <head>
 	<title>REMB</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="../framework/bootstrap-3.3.6/css/bootstrap.min.css" >
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap-theme.min.css" >
+	<link rel="stylesheet" href="../framework/bootstrap-3.3.6/css/bootstrap-theme.min.css" >
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="../framework/jquery/jquery-1.12.1.min.js" ></script>
-	<script src="../framework/bootstrap/js/bootstrap.min.js" ></script>  
+	<script src="../framework/bootstrap-3.3.6/js/bootstrap.min.js" ></script>  
 	<script src="../framework/jquery/jquery-1.11.14-ui.min.js"></script>
 	<link rel="stylesheet" href="../framework/jquery/jquery-1.11.14-ui.css">
 	<link href='../framework/fullcalendar-2.6.1/fullcalendar.css' rel='stylesheet' />
@@ -18,13 +18,83 @@
 	<script src='../framework/fullcalendar-2.6.1/fullcalendar.min.js'></script>
 	<script src='../framework/fullcalendar-2.6.1/lang-all.js'></script>
 	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/accueil.css">
 	<link rel="stylesheet" type="text/css" href="../css/actualite.css">
+	<link rel="stylesheet" media="screen and (max-width:1700px)" type="text/css" href="css/accueil_small_screen.css" >	
 	<script src="../js/script.js"></script>
 </head>
 <body>
-		<section class="container actualite_detail">
+		<header class="hidden-xs hidden-sm hidden-md visible-lg-inline">
+			<div class="master top-header"><img style="widht:60px;height:60px;" src="../img/logo.png"/>REMB</div>
+			<nav class="menu nav-navbar ">
+				<ul class="nav nav-pills">
+					<li><a class="active" href="accueil.html">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous ?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="adhesion.html">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="actualite.html">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
+				
+				
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+			<header class="visible-xs-block visible-sm-block visible-md-block" >
+			<nav class="menu navbar ">
+				<ul class="nav nav-pills nav-stacked">
+					<li><a class="active" href="">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
+				
+				<li><form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-primary">Submit</button>
+     		 </form></li>
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+		<section class="master actualite_detail">
 			<h1>Cum in ceteris peccatis</h1>
-			<img src="../img/img2.jpg"></img>
+			<img src="../img/diapo/img2.jpg"></img>
 			<article>
 				
 				

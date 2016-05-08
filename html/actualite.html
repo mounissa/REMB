@@ -3,12 +3,12 @@
 <head>
 	<title>REMB</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="../framework/bootstrap-3.3.6/css/bootstrap.min.css" >
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="../framework/bootstrap/css/bootstrap-theme.min.css" >
+	<link rel="stylesheet" href="../framework/bootstrap-3.3.6/css/bootstrap-theme.min.css" >
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="../framework/jquery/jquery-1.12.1.min.js" ></script>
-	<script src="../framework/bootstrap/js/bootstrap.min.js" ></script>  
+	<script src="../framework/bootstrap-3.3.6/js/bootstrap.min.js" ></script>  
 	<script src="../framework/jquery/jquery-1.11.14-ui.min.js"></script>
 	<link rel="stylesheet" href="../framework/jquery/jquery-1.11.14-ui.css">
 	<link href='../framework/fullcalendar-2.6.1/fullcalendar.css' rel='stylesheet' />
@@ -18,52 +18,185 @@
 	<script src='../framework/fullcalendar-2.6.1/fullcalendar.min.js'></script>
 	<script src='../framework/fullcalendar-2.6.1/lang-all.js'></script>
 	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/accueil.css">
 	<link rel="stylesheet" type="text/css" href="../css/actualite.css">
+	<link rel="stylesheet" media="screen and (max-width:1700px)" type="text/css" href="css/accueil_small_screen.css" >	
 	<script src="../js/script.js"></script>
 </head>
 <body>
-		<section class="container actualite">
+		<header class="hidden-xs hidden-sm hidden-md visible-lg-inline">
+			<div class="master top-header">
+				<span id="">
+					<img src="../img/logo.png" style="height:40px; width:40px;"/>
+					<a href="accueil.html">REMB</a>
+				</span>
+				<ul id="social_networks">
+						<li><a href="#" class="network1"></a></li>
+						<li><a href="#" class="network2"></a></li>
+						<li><a href="#" class="network3"></a></li>
+						
+					</ul>
 			
-			<article>
-				<a href="detail_actualite.html"><h2>Cum in ceteris peccatis</h2>
-				<img src="../img/img2.jpg"></img></a>
-				<p>
-					Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati.
-					 Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis c
-					 ontra rem publicam se amici causa fecisse fateatur. Etenim eo loco, Fanni et Scaevola, locati
-					  sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam ali
-					  quantum de spatio curriculoque consuetudo maiorum.
-				</p>
-			
-			</article>
-			<article>
-				<a href="detail_actualite.html"><h2>Amantur ut facile earum sensus</h2>
-				<img src="../img/img1.jpg"></img></a>
-				<p>
-					Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia,
-					 applicatione magis animi cum quodam sensu amandi quam cogitatione quantum 
-					 illa res utilitatis esset habitura. Quod quidem quale sit, etiam in bestiis
-					  quibusdam animadverti potest, quae ex se natos ita amant ad quoddam tempus 
-					  et ab eis ita amantur ut facile earum sensus appareat. Quod in homine multo 
-					  est evidentius, primum ex ea caritate quae est inter natos et parentes, quae 
-					  dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, 
-					si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod
-					 probitatis et virtutis perspicere videamur.
+			</div>
+			<nav class="menu nav-navbar ">
+				<ul class="nav nav-pills ">
+					<li><a class="active" href="accueil.html">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous ?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="adhesion.html">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="actualite.html">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
 				
-				</p>
-			</article>	
-			<article>
-				<a href="detail_actualite.html"><h2>Neturmpf hgupkdk</h2>
-				<img src="../img/img3.jpg"></img></a>
-				<p>
-					 Gapiyrgvn evidentius, primum ex ea caritate quae est inter natos et parentes, quae 
-					  dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, 
-					si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod
-					 probitatis et virtutis perspicere videamur.
 				
-				</p>
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+			<header class="visible-xs-block visible-sm-block visible-md-block" >
+			<nav class="menu navbar ">
+				<ul class="nav nav-pills nav-stacked">
+					<li><a class="active" href="">Accueil</a></li>
+					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Association</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Qui sommes nous?</a></li>
+							<li><a href="">Nos réalisations</a></li>
+							<li><a href="">Adhésion</a></li>
+						</ul>
+					
+					</li>	
+					<li><a href="">Actualités</a></li>
+					<li><a href="">Forum,chat</a></li>		
+					<li><a href="">Emploi,Stages</a></li>
+					<li><a href="">Boite à outils</a>
+						<ul class="dropdown-menu">
+							<li><a href="">Rapport de stage</a></li>
+							<li><a href="">Thèse</a></li>
+							<li><a href="">Mémoire</a></li>
+						</ul>
+					</li>		
+					<li><a href="">Contact</a></li>
+					
+				
+				<li><form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-primary">Submit</button>
+     		 </form></li>
+     		 <li id="connexion"><a href="">Connexion</a></li>
+     		 </ul>
+			</nav>
+			<span class="ligne"></span>
+		</header>
+		<section class="master container-fluid actualite">
+			<div class="row">
+			<div class=" col-sm-8">
+				<section class="une">
+						<div class="bandeau_img">
+							<h1>Probitatis et virtutis</h1>
+							<img src="../img/diapo/img3.jpg"></img>
+						
+						</div>
+						
+							<div class="resume">
+								<p>Lorem ipsum dolor sit am, scing elit neg scing elit. In augue neque id nisi dolorsi
+					          ultricies id nisi consectet amt elit auguamet elit.id nisi consectet amt elit auguamet elit.
+					          <br><a href="detail_actualite.html" class="caption-more">...Lire plus</a>
+					          </p>
+					       </div>
+							
+						
+				</section>
+				<section class="list_article">
+					<article>
+					<a href="detail_actualite.html"><h2>Cum in ceteris peccatis</h2>
+					<img src="../img/diapo/img2.jpg"></img></a>
+					<p>
+						Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati.
+						 Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis c
+						 ontra rem publicam se amici causa fecisse fateatur. Etenim eo loco, Fanni et Scaevola, locati
+						  sumus ut nos longe prospicere oporteat futuros casus rei publicae. Deflexit iam ali
+						  quantum de spatio curriculoque consuetudo maiorum.
+					</p>
+				
+				</article>
+				<article>
+					<a href="detail_actualite.html"><h2>Amantur ut facile earum sensus</h2>
+					<img src="../img/diapo/img1.jpg"></img></a>
+					<p>
+						Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia,
+						 applicatione magis animi cum quodam sensu amandi quam cogitatione quantum 
+						 illa res utilitatis esset habitura. Quod quidem quale sit, etiam in bestiis
+						  quibusdam animadverti potest, quae ex se natos ita amant ad quoddam tempus 
+						  et ab eis ita amantur ut facile earum sensus appareat. Quod in homine multo 
+						  est evidentius, primum ex ea caritate quae est inter natos et parentes, quae 
+						  dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, 
+						si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod
+						 probitatis et virtutis perspicere videamur.
+					
+					</p>
+				</article>	
+				<article>
+					<a href="detail_actualite.html"><h2>Neturmpf hgupkdk</h2>
+					<img src="../img/diapo/img3.jpg"></img></a>
+					<p>
+						 Gapiyrgvn evidentius, primum ex ea caritate quae est inter natos et parentes, quae 
+						  dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, 
+						si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod
+						 probitatis et virtutis perspicere videamur.
+					
+					</p>
+				
+				</article>
+				<nav class="article_pagination">
+				  <ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li class="active" ><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+			</section>
+			</div>
+			<aside class=" other col-sm-4">
+				<h2>A la une</h2>
+				<ul>
+					<li><a href="detail_actualite.html"><span class="date">17-04-2016</span> Probitatis et virtutis</a></li>
+					<li><a href="detail_actualite.html"><span class="date">10-04-2016</span> Rimum ex ea caritate quae</a></li>
+					<li><a href="detail_actualite.html"><span class="date">08-04-2016</span> Gapiyrgvn evidentius</a></li>
+					<li><a href="detail_actualite.html"><span class="date">05-04-2016</span> Rimum ex ea caritate quae</a></li>
+					<li><a href="detail_actualite.html"><span class="date">01-04-2016</span> Gapiyrgvn evidentius</a></li>
+				
+					
+				</ul>
+			</aside>
+			</div>
 			
-			</article>
 		</section>
 		
 
