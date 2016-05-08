@@ -95,16 +95,4 @@
 	padding-top:none;
 	background-color:rgba(46, 138, 138,0.2);
 }
-.foot {
-	
-}
-.foot ul li{
-	
-	display:inline;
-	text-decoration:none;
-}
 
-.foot ul li ul li{
-	
-	display:none;
-}
